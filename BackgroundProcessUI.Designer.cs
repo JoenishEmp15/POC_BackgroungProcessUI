@@ -40,12 +40,14 @@
             // 
             // StartProcess
             // 
+            StartProcess.BackColor = Color.Transparent;
+            StartProcess.BackgroundImageLayout = ImageLayout.None;
             StartProcess.Location = new Point(376, 251);
             StartProcess.Name = "StartProcess";
             StartProcess.Size = new Size(206, 29);
             StartProcess.TabIndex = 0;
             StartProcess.Text = "Start Process";
-            StartProcess.UseVisualStyleBackColor = true;
+            StartProcess.UseVisualStyleBackColor = false;
             StartProcess.Click += StartProcess_Click;
             // 
             // panel1

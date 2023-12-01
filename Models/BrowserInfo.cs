@@ -8,7 +8,7 @@ namespace POC_BackgroungProcessUI.Models
 {
     public class BrowserInfo
     {
-        public int Id {  get; set; }
+        public int Id { get; set; }
         public string? BroserName { get; set; }
         public string? Url { get; set; }
     }

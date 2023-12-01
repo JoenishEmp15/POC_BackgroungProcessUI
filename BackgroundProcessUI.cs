@@ -18,8 +18,8 @@ namespace POC_BackgroungProcessUI
         {
             try
             {
-                var context = new BackgroundProcessDbContext();
-                var browserInfo = new BrowserInfo { BroserName = browserName, Url = url };
+                BackgroundProcessDbContext context = new BackgroundProcessDbContext();
+                BrowserInfo browserInfo = new BrowserInfo { BroserName = browserName, Url = url };
                 context.BrowserInfos.Add(browserInfo);
                 context.SaveChanges();
                 MessageBox.Show("Data saved to database successfully.");

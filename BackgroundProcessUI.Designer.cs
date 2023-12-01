@@ -113,7 +113,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(panel1);
-            FormBorderStyle = FormBorderStyle.None;
+            FormBorderStyle = FormBorderStyle.SizableToolWindow;
             Name = "BackgroundProcessUI";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
